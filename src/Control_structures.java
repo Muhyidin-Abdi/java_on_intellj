@@ -10,10 +10,10 @@ public class Control_structures {
 //        }else {  System.out.println("fail");}
 //
 //
-//        //for loops
-//        for (int i = 0; i < 5; i++) {
-//            System.out.println(i);
-//        }
+        //for loops
+        for (int i = 0; i < 5; i++) {
+            System.out.printf(" score is less then : %d\n", i ) ;
+        }
         //while loops
 //        int i =0;
 //        while (i < 5) {
@@ -41,13 +41,13 @@ public class Control_structures {
 //            System.out.println("i is " + i);
 //        }
         //continue statements
-        for (int i = 0; i < 10; i++) {
-            if (i % 2 == 0) {
-                continue; // Skip even numbers
-            }
-            System.out.println("Odd number: " + i);
-
-        }
+//        for (int i = 0; i < 10; i++) {
+//            if (i % 2 == 0) {
+//                continue; // Skip even numbers
+//            }
+//            System.out.println("Odd number: " + i);
+//
+//        }
     }
 
 
